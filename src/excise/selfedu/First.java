@@ -3,8 +3,8 @@ package excise.selfedu;
 public class First {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		J_Grid15 aGrid15 = new J_Grid15();
+		aGrid15.mb_arrange();
 	}
 
 }
