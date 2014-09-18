@@ -1,5 +1,10 @@
 package excise.selfedu;
 
+////////////////////////////////////
+//  将1到9的数字不重复的填入3*3的棋盘中,使得
+//各行, 各列, 以及对角线上的3个数之和均为15
+////////////////////////////////////
+
 public class J_Grid15 {
 	int [][] m_board;
 	public J_Grid15() {
@@ -51,7 +56,7 @@ public class J_Grid15 {
 		}
 	}//method mb_dataInit end.
 	
-	//数据结束检测
+	//数据结束检测, 当数据为最后一个时, 返回true, 否则为false
 	private boolean mb_dataEnd()
 	{
 		for (int i = 0, k = 9; i < m_board.length; i++) {
