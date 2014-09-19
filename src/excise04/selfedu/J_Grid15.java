@@ -1,4 +1,4 @@
-package excise.selfedu;
+package excise04.selfedu;
 
 ////////////////////////////////////
 //  将1到9的数字不重复的填入3*3的棋盘中,使得
@@ -165,8 +165,8 @@ public class J_Grid15 {
 				n++;
 				mb_outputGrid();
 			}else if(counter < 20){
-					System.out.println("invalid:");
-					mb_outputGrid();
+					//System.out.println("invalid:");
+					//mb_outputGrid();
 					counter++;
 			}
 		}//for loop end;
