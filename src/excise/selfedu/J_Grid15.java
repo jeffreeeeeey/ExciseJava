@@ -158,13 +158,17 @@ public class J_Grid15 {
 	//求解并输出棋盘问题
 	public void mb_arrange()
 	{
-		int n = 1;
+		int n = 1, counter = 0;
 		for (mb_dataInit(); !mb_dataEnd(); mb_dataNext()) {
 			if (mb_dataCheck()) {
 				System.out.println("第" + n + "个结果:");
 				n++;
 				mb_outputGrid();
-			}//if end;
+			}else if(counter < 20){
+					System.out.println("invalid:");
+					mb_outputGrid();
+					counter++;
+			}
 		}//for loop end;
 	}//method mb_arrange end;
 	
